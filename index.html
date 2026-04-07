@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Never Ending Ink | Tattoo & Piercing Pittsburgh</title>
+    <style>
+        /* Base Styles */
+        :root {
+            --bg-color: #0f0f0f;
+            --text-color: #f4f4f4;
+            --accent-color: #c9a227; /* Gold accent for a premium feel */
+            --secondary-bg: #1a1a1a;
+            --border-color: #333;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Typography */
+        h1, h2, h3 {
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-weight: 300;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            transition: 0.3s;
+        }
+
+        /* Layout */
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        header h1 {
+            font-size: 3.5rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: var(--accent-color);
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            padding: 12px 30px;
+            border: 1px solid var(--accent-color);
+            color: var(--accent-color);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 0.9rem;
+        }
+
+        .btn:hover {
+            background-color: var(--accent-color);
+            color: #000;
+        }
+
+        /* Navigation */
+        nav {
+            position: sticky;
+            top: 0;
+            background: rgba(15, 15, 15, 0.95);
+            padding: 20px 0;
+            border-bottom: 1px solid var(--border-color);
+            z-index: 1000;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            font-size: 0.8rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        /* Sections */
+        section {
+            padding: 100px 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+        }
+
+        .card {
+            background: var(--secondary-bg);
+            padding: 40px;
+            border: 1px solid var(--border-color);
+        }
+
+        .card h3 {
+            margin-bottom: 15px;
+            color: var(--accent-color);
+        }
+
+        /* Reviews Section */
+        .review-stat {
+            text-align: center;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+
+        /* Footer / Contact */
+        footer {
+            padding: 60px 0;
+            text-align: center;
+            background: #050505;
+        }
+
+        .contact-info {
+            margin-bottom: 30px;
+        }
+
+        .contact-info p {
+            margin: 10px 0;
+            font-size: 1.1rem;
+        }
+
+        /* Mobile Adjustments */
+        @media (max-width: 768px) {
+            header h1 { font-size: 2.2rem; }
+            nav a { display: block; margin: 10px 0; }
+            section { padding: 60px 0; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Never Ending Ink</h1>
+            <p>Pittsburgh's Premier Tattoo & Piercing Studio</p>
+            <a href="tel:4127210166" class="btn">Book Appointment</a>
+        </div>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Location</a>
+    </nav>
+
+    <section id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Studio</h2>
+            </div>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto;">
+                Located in the heart of Pittsburgh, Never Ending Ink is a clean, professional, and friendly environment dedicated to the art of body modification. We specialize in custom tattoo work—from intricate lettering to traditional Japanese styles—and expert body piercings.
+            </p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Services</h2>
+            </div>
+            <div class="grid">
+                <div class="card">
+                    <h3>Custom Tattoos</h3>
+                    <p>Expert application with a focus on longevity and artistic integrity. Specializing in Japanese work, fine-line lettering, and cover-ups.</p>
+                </div>
+                <div class="card">
+                    <h3>Professional Piercing</h3>
+                    <p>Safe and sanitary body piercing services using high-quality jewelry and industry-standard sterilization methods.</p>
+                </div>
+                <div class="card">
+                    <h3>Consultations</h3>
+                    <p>Work one-on-one with our artists to bring your vision to life. We provide a collaborative environment for every project.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews">
+        <div class="container">
+            <div class="section-title">
+                <h2>Client Feedback</h2>
+            </div>
+            <div class="review-stat">
+                <strong>5.0 Rating</strong> | 128 Google Reviews
+            </div>
+            <p style="text-align: center; font-style: italic; color: #888;">
+                "Clean, professional, and the best work in the city."
+            </p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get In Touch</h2>
+            </div>
+            <div class="contact-info">
+                <p><strong>Address:</strong> 1100 Muldowney Ave, Pittsburgh, PA 15207</p>
+                <p><strong>Phone:</strong> (412) 721-0166</p>
+                <p><strong>Hours:</strong> Wed - Sat: 12 PM - 7 PM</p>
+            </div>
+            <div style="text-align: center;">
+                <a href="https://www.google.com/maps/search/?api=1&query=1100+Muldowney+Ave+Pittsburgh+PA+15207" target="_blank" class="btn">Get Directions</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Never Ending Ink. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
